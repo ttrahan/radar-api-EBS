@@ -16,7 +16,7 @@ function info(req, res) {
         version: pjson.version,
         time: new Date(),
         buildnumber: buildnum,
-        message: '"Welcome! Aye0Aye"',
+        message: 'Welcome!',
         body: req.body,
         query: req.query,
         params: req.params,
