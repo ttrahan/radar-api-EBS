@@ -14,9 +14,9 @@ function info(req, res) {
       if (data) buildnum = data.replace('\n', '');
       res.status(200).json({
         version: pjson.version,
-        time: new Date(),
+//        time: new Date(),
         buildnumber: buildnum,
-        message: '"Welcome from Shippable!"',
+        message: '"Welcome! Aye0Aye"',
         body: req.body,
         query: req.query,
         params: req.params,
