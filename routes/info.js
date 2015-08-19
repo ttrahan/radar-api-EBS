@@ -14,7 +14,7 @@ function info(req, res) {
       if (data) buildnum = data.replace('\n', '');
       res.status(200).json({
         version: pjson.version,
- //       time: new Date(),
+        time: new Date(),
         buildnumber: buildnum,
         message: 'Welcome!!!',
         body: req.body,
