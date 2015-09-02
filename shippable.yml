@@ -17,8 +17,8 @@ before_install:
     - mkdir -p ./shippable/testresults
     - mkdir -p ./shippable/codecoverage
 
-install:
-    - npm install
+# install:
+#    - npm install
 
 script:
     - mkdir -p ./shippable/buildoutput
