@@ -12,6 +12,7 @@ env:
         # TOKEN is a GitHub token for the subscription triggering the build
 
 before_install:
+    - cd $SHIPPABLE_REPO_DIR
     - node --version
     - npm install -g grunt-cli
     - mkdir -p ./shippable/testresults
