@@ -10,7 +10,7 @@ env:
         - XUNIT_FILE=./shippable/testresults/result.xml
         - secure: SBEBOARg8txobTq/oxMrJyk0W3DCU5qAAPEYmQyjzV9OzJBmLCQ60pXT7Alf04/xZjRfFnfDYXB+v7CoIQOp6ZCVZmvawbKiTM8l/tNq63vT4Rwe7GH0CWiKr65WAtkt1hqFFk8sQLAA1yd6VbZyCQwIFu/DVabw5AxZnJMLuY3BLzmEjNx4Exad9rGWrH1M7kfZyMlkGzUDJBLJswbUC+lYip6xbusvzQRsEKy0O4UTWsZHy9iKqYUcZ36qvRo5zdSnXXYiXxkt6L0huywIeG57ZYTVPipFXB7s4yLapWs0HyHQraVSuPAHK6PZQMFe3XBA7ffudJ0LbGse55DkuA==
         # This secure variable is an encypted GitHub token for the subscription triggering the build.  
-        # You'll need to replace the above value with your own personal access token from your GitHub account settings.
+        # You'll need to replace the above hash with one based on your own personal access token from your GitHub account settings.
         # For instructions to encrypt this variable, see http://docs.shippable.com/project_settings/#encrypt-environment-variables
 
 
