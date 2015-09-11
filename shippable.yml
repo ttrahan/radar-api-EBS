@@ -8,7 +8,7 @@ node_js:
 env:
     global:
         - XUNIT_FILE=./shippable/testresults/result.xml
-        - secure: SBEBOARg8txobTq/oxMrJyk0W3DCU5qAAPEYmQyjzV9OzJBmLCQ60pXT7Alf04/xZjRfFnfDYXB+v7CoIQOp6ZCVZmvawbKiTM8l/tNq63vT4Rwe7GH0CWiKr65WAtkt1hqFFk8sQLAA1yd6VbZyCQwIFu/DVabw5AxZnJMLuY3BLzmEjNx4Exad9rGWrH1M7kfZyMlkGzUDJBLJswbUC+lYip6xbusvzQRsEKy0O4UTWsZHy9iKqYUcZ36qvRo5zdSnXXYiXxkt6L0huywIeG57ZYTVPipFXB7s4yLapWs0HyHQraVSuPAHK6PZQMFe3XBA7ffudJ0LbGse55DkuA==
+        - secure: dQ5X8cmrA2ox21BEC4U3vvILj0a0Uffll2T6V9AniFPjmp0HZCAlLRBWW6XusfPddpghi7O06leFs0HZlZccb20bDABnLmsRKhIHb9zIYg8JFhVHHnbK+2cLXeJLTnQdrD4q7lCl5AK2djbCKHNeRsdw8653mh2J2aJvKc9B00zfM+kBTC5FsJGXGdGVCYV4HknXCsNqCNOm9qVT1NboivxkPETQ/hhRO1fZZ2d9nAlqmcSsGpUxGNUs7i4Ta8YbuCnwwJMXlqRwwJZWwCiERK9jVlPFEEpJncSnIQRU0VT89yUGVvjjdsIblQ9A1jbY3WHVgdw2le7dHKDBLT6Lig==
         # This secure variable is an encypted GitHub token for the subscription triggering the build.  
         # You'll need to replace the above hash with one based on your own personal access token from your GitHub account settings.
         # For instructions to encrypt this variable, see http://docs.shippable.com/project_settings/#encrypt-environment-variables
