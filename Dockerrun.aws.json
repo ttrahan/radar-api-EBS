@@ -1,0 +1,19 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "<IMAGE_NAME>:<TAG>",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "3001"
+    }
+  ],
+  "Logging": "/var/log/radar-api",
+  "environment": [{
+    "NODE_ENV": "dev",
+    "API_PORT": "3000",
+    "CONSOLE_LOGLEVEL": "debug",
+    "FILE_LOG": "false"
+  }]
+}
