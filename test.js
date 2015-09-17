@@ -1,9 +1,12 @@
+'use strict';
+
 var superagent = require('superagent');
 var chai = require('chai');
 var expect = chai.expect;
 var should = require('should');
 var token = process.env.TOKEN;
-var apiURL = 'http://localhost:'+ process.env.API_PORT + '/'
+var apiURL = 'http://localhost:'+ process.env.API_PORT + '/' ||
+  'http://localhost:3001';
 
 describe('Index', function() {
   it('renders something', function(done) {
@@ -46,7 +49,8 @@ describe('Closed issues', function() {
 
 describe('Failed auth', function() {
   it('Should not render issues page, instead main page', function(done) {
-    superagent.get(apiURL + 'issues?repo=shippable/support&token=no&days=2&daysEnd=5&state=Open')
+    superagent.get(apiURL + 'issues?repo=shippable/support&token=no&days=' +
+    '2&daysEnd=5&state=Open')
     .end(function(err, res) {
       res.text.should.not.containEql('open');
       res.text.should.not.containEql('close');
