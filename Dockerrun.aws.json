@@ -9,5 +9,5 @@
       "ContainerPort": "3001"
     }
   ],
-  "Logging": "/var/log/radar-api",
+  "Logging": "/var/log/radar-api"
 }
