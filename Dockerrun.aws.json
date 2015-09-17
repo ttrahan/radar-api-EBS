@@ -10,10 +10,22 @@
     }
   ],
   "Logging": "/var/log/radar-api",
-  "environment": [{
-    "NODE_ENV": "dev",
-    "API_PORT": "3000",
-    "CONSOLE_LOGLEVEL": "debug",
-    "FILE_LOG": "false"
-  }]
+  "environment": [
+    {
+      "name": "NODE_ENV",
+      "value": "dev"
+    }
+    {
+      "name": "API_PORT",
+      "value": "3000"
+    }
+    {
+      "name": "CONSOLE_LOGLEVEL",
+      "value": "debug"
+    }
+    {
+      "name": "FILE_LOG",
+      "value": "false"
+    }
+  ]
 }
